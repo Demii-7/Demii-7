@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Mar 10 22:41:47 2025
+
+drc -z top_processor_FPGA.ncd top_processor_FPGA.pcf
+
+DRC detected 0 errors and 0 warnings.

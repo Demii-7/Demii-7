@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Mar 10 17:21:08 2025
+# Process ID: 18828
+# Log file: D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/planAhead_run_1/planAhead.log
+# Journal file: D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/pa.fromNetlist.tcl}

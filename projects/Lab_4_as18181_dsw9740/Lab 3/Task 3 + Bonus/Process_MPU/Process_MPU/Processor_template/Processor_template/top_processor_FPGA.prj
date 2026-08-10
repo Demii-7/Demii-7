@@ -1,0 +1,8 @@
+vhdl work "common.vhd"
+vhdl work "Registers.vhd"
+vhdl work "PC.vhd"
+vhdl work "Instructions_ROM.vhd"
+vhdl work "Decoder.vhd"
+vhdl work "Controller.vhd"
+vhdl work "ALU.vhd"
+vhdl work "top_processor_FPGA.vhd"

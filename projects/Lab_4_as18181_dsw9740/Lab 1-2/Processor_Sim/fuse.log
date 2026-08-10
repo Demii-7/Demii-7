@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/tb_top_processor_isim_beh.exe -prj D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/tb_top_processor_beh.prj work.tb_top_processor 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/common.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Registers.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/PC.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Instructions_ROM.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Decoder.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Controller.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/ALU.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/top_processor.vhd" into library work
+Parsing VHDL file "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/tb_top_processor.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package common
+Compiling package numeric_std
+Compiling architecture behavioral of entity Instructions_ROM [instructions_rom_default]
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity Controller [controller_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity Registers [registers_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity top_processor [top_processor_default]
+Compiling architecture behavior of entity tb_top_processor
+Time Resolution for simulation is 1ps.
+Compiled 19 VHDL Units
+Built simulation executable D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/tb_top_processor_isim_beh.exe
+Fuse Memory Usage: 38200 KB
+Fuse CPU Usage: 905 ms

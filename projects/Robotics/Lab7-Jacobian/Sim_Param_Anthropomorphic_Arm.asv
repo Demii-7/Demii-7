@@ -1,0 +1,124 @@
+
+% Floor Parameters
+floor_w = 1.5;
+floor_l = 1.5;
+floor_h = 0.01;
+
+%Joint Parameters
+joint_r = 0.03;
+joint_h = 0.05;
+
+%Link 1 Prameters
+link1_r = 0.02;
+link1_l = 0.70;
+
+side_l = 0.06;
+
+%Link 2 Prameters
+link2_r = 0.02;
+link2_l = 0.50;
+
+
+%Link 3 Prameters
+link3_r = 0.02;
+link3_l = 0.50;
+
+% Number of points
+N = 201;
+
+% Time vector (column)
+t = linspace(0, 10, N)';  % 5 seconds simulation (adjust as needed)
+
+%% Define start and end points for the slanted line
+start_point = [0.2, 0.05, 0.7];       % Starting point (x1, y1, z1)
+end_point = [0.9, 0.05,0.7]; % Ending point (x2, y2, z2)
+
+% Interpolate only x; y and z are constant
+x = linspace(start_point(1), end_point(1), N)';  % x from 0.2 → 0.9
+y = repmat(start_point(2), N, 1);               % y constant at 0.05
+z = repmat(start_point(3), N, 1);               % z constant at 0.7
+
+% --- Combine into workspace matrices for From Workspace blocks ---
+X_block_data = [t, x];   % 201 x 2
+Y_block_data = [t, y];   % 201 x 2
+Z_block_data = [t, z];   % 201 x 2
+
+% Spline points for Mechanical Explorer for Straight line
+% Spline expects N x 3 matrix: [x, y, z]
+SplinePoints = [x, y, z];    % 201 x 3
+
+% Plot joint velocities with time
+
+subplot(3, 1, 1);
+plot(out.q1_dot.Time, out.q1_dot.Data);
+xlabel('Time (s)');
+ylabel('q1_d_o_t (rad/s)');
+title('q1_d_o_t  vs Time');
+grid on;
+
+subplot(3, 1, 2);
+plot(out.q2_dot.Time, out.q2_dot.Data);
+xlabel('Time (s)');
+ylabel('q2_d_o_t (rad/s)');
+title('q2_d_o_t  vs Time');
+grid on;
+
+subplot(3, 1, 3);
+plot(out.q3_dot.Time, out.q3_dot.Data);
+xlabel('Time (s)');
+ylabel('q3_d_o_t (rad/s)');
+title('q1_d_o_t  vs Time');
+grid on;
+
+%% Study effect of singularity proximity on joint 2 angular velocity
+
+% Simulation settings
+model = 'Anthropomorphic_Arm_Robot';    % <-- change to your model name
+offsets = linspace(-0.1, 0.1, 21);   % Path offset (m)
+
+x = linspace(start_point(1), end_point(1), N)';
+z = repmat(start_point(3), N, 1);
+
+% Preallocate
+all_q1dot = [];
+all_time = [];
+all_offset = [];
+
+for k = 1:length(offsets)
+    offset = offsets(k);
+    fprintf('Running simulation %d of %d: offset = %.3f m\n', k, length(offsets), offset);
+
+    % Shift path
+    y = repmat(start_point(2) + offset, N, 1);
+    X_block_data = [t, x];
+    Y_block_data = [t, y];
+    Z_block_data = [t, z];
+    SplinePoints = [x, y, z];
+
+    % Run model
+    simOut = sim(model, 'StopTime', '10');
+
+    % Extract time and q2_dot
+    time = simOut.q1_dot.Time;
+    q1dot = simOut.q1_dot.Data;
+
+    % Downsample both to same fixed length
+    q1dot_ds = q1dot(1:100:end);
+    time_ds = time(1:100:end);
+
+    % --- First run: initialize matrix with correct width ---
+    if k == 1
+        all_time = time_ds';
+        all_q1dot = zeros(length(offsets), length(time_ds));
+    end
+
+    % --- If current run shorter, pad with NaN ---
+    if length(q1dot_ds) < size(all_q1dot, 2)
+        q1dot_ds(end+1:size(all_q1dot,2)) = NaN;
+    elseif length(q1dot_ds) > size(all_q1dot, 2)
+        q1dot_ds = q1dot_ds(1:size(all_q1dot,2));
+    end
+
+    % Store this run as a row
+    all_q2dot(k, :) = q2dot_ds';
+end

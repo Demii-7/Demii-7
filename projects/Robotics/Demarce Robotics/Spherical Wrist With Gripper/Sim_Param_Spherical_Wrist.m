@@ -1,0 +1,35 @@
+
+% Floor Parameters
+floor_w = 1.5;
+floor_l = 1.5;
+floor_h = 0.01;
+
+%Joint Parameters
+joint_r = 0.03;
+joint_h = 0.05;
+
+%Link 1 Prameters
+link1_r = 0.02;
+link1_l = 0.10;
+
+side_l = 0.06;
+
+%Link 2 Prameters
+link2_r = 0.02;
+link2_l = 0.10;
+
+
+%Link 3 Prameters
+link3_r = 0.02;
+link3_l = 0.15;
+
+%Gripper Paramaters
+gripperBase_w = 0.20;
+gripperBase_l = 0.05;
+gripperBase_h = 0.025;
+
+gripper_w = 0.0375;
+gripper_l = 0.025;
+gripper_h = 0.05;
+
+offset = 0.05;

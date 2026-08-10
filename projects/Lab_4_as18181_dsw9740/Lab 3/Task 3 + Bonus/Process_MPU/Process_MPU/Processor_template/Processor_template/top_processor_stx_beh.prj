@@ -1,0 +1,8 @@
+vhdl isim_temp "common.vhd"
+vhdl isim_temp "Registers.vhd"
+vhdl isim_temp "PC.vhd"
+vhdl isim_temp "Instructions_ROM.vhd"
+vhdl isim_temp "Decoder.vhd"
+vhdl isim_temp "Controller.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "top_processor.vhd"

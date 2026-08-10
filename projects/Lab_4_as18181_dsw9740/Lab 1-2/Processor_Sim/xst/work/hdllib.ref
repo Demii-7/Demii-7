@@ -1,0 +1,16 @@
+PB common common "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/common.vhd" sub00/vhpl01 1741632079
+EN instructions_rom NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Instructions_ROM.vhd" sub00/vhpl03 1741632080
+EN top_processor_fpga NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/top_processor_FPGA.vhd" sub00/vhpl02 1741632092
+AR registers behavioral "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Registers.vhd" sub00/vhpl12 1741632089
+AR top_processor_fpga behavioral "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/top_processor_FPGA.vhd" sub00/vhpl15 1741632093
+EN pc NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/PC.vhd" sub00/vhpl09 1741632086
+AR decoder behavioral "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Decoder.vhd" sub00/vhpl06 1741632083
+PH common NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/common.vhd" sub00/vhpl00 1741632078
+AR instructions_rom behavioral "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Instructions_ROM.vhd" sub00/vhpl04 1741632081
+AR alu behavioral "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/ALU.vhd" sub00/vhpl14 1741632091
+EN decoder NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Decoder.vhd" sub00/vhpl05 1741632082
+EN controller NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Controller.vhd" sub00/vhpl07 1741632084
+AR pc behavioral "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/PC.vhd" sub00/vhpl10 1741632087
+AR controller behavioral "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Controller.vhd" sub00/vhpl08 1741632085
+EN registers NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/Registers.vhd" sub00/vhpl11 1741632088
+EN alu NULL "D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/ALU.vhd" sub00/vhpl13 1741632090

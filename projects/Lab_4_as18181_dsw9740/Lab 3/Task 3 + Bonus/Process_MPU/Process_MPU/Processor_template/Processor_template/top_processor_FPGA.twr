@@ -1,0 +1,170 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o
+top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf
+
+Design file:              top_processor_FPGA.ncd
+Physical constraint file: top_processor_FPGA.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+seg_an<0>   |   11.361(R)|clk_BUFGP         |   0.000|
+seg_an<1>   |   11.008(R)|clk_BUFGP         |   0.000|
+seg_an<2>   |   11.546(R)|clk_BUFGP         |   0.000|
+seg_an<3>   |   11.480(R)|clk_BUFGP         |   0.000|
+seg_bits<0> |   51.686(R)|clk_BUFGP         |   0.000|
+seg_bits<1> |   52.372(R)|clk_BUFGP         |   0.000|
+seg_bits<2> |   52.201(R)|clk_BUFGP         |   0.000|
+seg_bits<3> |   51.369(R)|clk_BUFGP         |   0.000|
+seg_bits<4> |   52.897(R)|clk_BUFGP         |   0.000|
+seg_bits<5> |   52.013(R)|clk_BUFGP         |   0.000|
+seg_bits<6> |   52.170(R)|clk_BUFGP         |   0.000|
+seg_bits<7> |   12.693(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock next_instr to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+seg_an<0>   |   29.230(R)|clk_proc          |   0.000|
+seg_bits<0> |   66.993(R)|clk_proc          |   0.000|
+seg_bits<1> |   67.679(R)|clk_proc          |   0.000|
+seg_bits<2> |   67.508(R)|clk_proc          |   0.000|
+seg_bits<3> |   66.676(R)|clk_proc          |   0.000|
+seg_bits<4> |   68.204(R)|clk_proc          |   0.000|
+seg_bits<5> |   67.320(R)|clk_proc          |   0.000|
+seg_bits<6> |   67.477(R)|clk_proc          |   0.000|
+seg_bits<7> |   29.574(R)|clk_proc          |   0.000|
+------------+------------+------------------+--------+
+
+Clock trace_en to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+seg_an<0>   |   30.848(R)|clk_proc          |   0.000|
+seg_bits<0> |   68.611(R)|clk_proc          |   0.000|
+seg_bits<1> |   69.297(R)|clk_proc          |   0.000|
+seg_bits<2> |   69.126(R)|clk_proc          |   0.000|
+seg_bits<3> |   68.294(R)|clk_proc          |   0.000|
+seg_bits<4> |   69.822(R)|clk_proc          |   0.000|
+seg_bits<5> |   68.938(R)|clk_proc          |   0.000|
+seg_bits<6> |   69.095(R)|clk_proc          |   0.000|
+seg_bits<7> |   31.192(R)|clk_proc          |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    6.458|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock next_instr
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+next_instr     |   17.195|         |         |         |
+trace_en       |   17.195|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock trace_en
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+next_instr     |   17.195|         |         |         |
+trace_en       |   17.195|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+reg_sig<0>     |seg_bits<0>    |   53.497|
+reg_sig<0>     |seg_bits<1>    |   54.183|
+reg_sig<0>     |seg_bits<2>    |   54.012|
+reg_sig<0>     |seg_bits<3>    |   53.180|
+reg_sig<0>     |seg_bits<4>    |   54.708|
+reg_sig<0>     |seg_bits<5>    |   53.824|
+reg_sig<0>     |seg_bits<6>    |   53.981|
+reg_sig<0>     |seg_bits<7>    |   15.118|
+reg_sig<1>     |seg_bits<0>    |   52.149|
+reg_sig<1>     |seg_bits<1>    |   52.835|
+reg_sig<1>     |seg_bits<2>    |   52.664|
+reg_sig<1>     |seg_bits<3>    |   51.832|
+reg_sig<1>     |seg_bits<4>    |   53.360|
+reg_sig<1>     |seg_bits<5>    |   52.476|
+reg_sig<1>     |seg_bits<6>    |   52.633|
+reg_sig<1>     |seg_bits<7>    |   15.876|
+reg_sig<2>     |seg_bits<0>    |   51.365|
+reg_sig<2>     |seg_bits<1>    |   52.051|
+reg_sig<2>     |seg_bits<2>    |   51.880|
+reg_sig<2>     |seg_bits<3>    |   51.048|
+reg_sig<2>     |seg_bits<4>    |   52.576|
+reg_sig<2>     |seg_bits<5>    |   51.692|
+reg_sig<2>     |seg_bits<6>    |   51.849|
+reg_sig<2>     |seg_bits<7>    |   14.051|
+trace_en       |seg_an<0>      |    9.993|
+trace_en       |seg_bits<0>    |   50.303|
+trace_en       |seg_bits<1>    |   50.989|
+trace_en       |seg_bits<2>    |   50.818|
+trace_en       |seg_bits<3>    |   49.986|
+trace_en       |seg_bits<4>    |   51.514|
+trace_en       |seg_bits<5>    |   50.630|
+trace_en       |seg_bits<6>    |   50.787|
+trace_en       |seg_bits<7>    |   12.058|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 10 22:37:51 2025 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4503 MB
+
+
+

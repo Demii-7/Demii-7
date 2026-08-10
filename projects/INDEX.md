@@ -41,3 +41,32 @@ This folder stores recovered source material and original submission files for l
 ## 9. Thermal Dissipation
 - C++ thermal distribution simulation project.
 - Contains: `thermal_dist_simulator.cpp` and one mechanical engineering case-study `.docx`.
+
+## 10. Circuits
+- Circuit analysis / electronics course artifact folder.
+- Contains: five lab report PDFs.
+
+## 11. Controls
+- Feedback control course folder.
+- Contains: lab and prelab PDFs, `Prelab_1.cpp`, `prelab3.mlx`, and supporting PDFs including experiment handouts and figures.
+
+## 12. Electronics
+- Electronics / PCB project folder.
+- Contains: ECG PCB project PDFs, prelab PDFs, a component-list PDF, and one PCB/schematic screenshot image.
+
+## 13. Lab 1- SRI Simulation
+- Simulink / Simscape epidemic-model submission folder.
+- Contains: `SRI_Flu_Epidemic_Model.slx`, `figure2.pdf`, and two certificate PDFs.
+
+## 14. Lab_4_as18181_dsw9740
+- Digital logic / processor and bonus-task submission folder.
+- Contains: `Lab4_dsw9740_as18181.pdf` plus `Lab 1-2/`, `Lab 3/`, and `Lab 4-5/` subfolders.
+- Includes videos and a large nested processor template/Xilinx project tree under `Lab 3/Task 3 + Bonus/...`.
+
+## 15. Robotics
+- Mixed robotics coursework and kinematics/control materials.
+- Contains: robotics homework/lab PDFs, MATLAB Live Scripts, Arduino sketch `LAB9_UART_DSW9740.ino`, animation/video files, and nested folders such as `Demarce Robotics IK/`, `Demarce Robotics/`, and `Lab7-Jacobian/`.
+
+## 16. Signals and Systems
+- Signals and systems coursework folder.
+- Contains: multiple lab PDFs and `SS_Lab7/`, which includes `dtft.m`, `NoisySpeech.txt`, `SS_Lab7_DSW9740.mlx`, and `SS_Lab7.pdf`.

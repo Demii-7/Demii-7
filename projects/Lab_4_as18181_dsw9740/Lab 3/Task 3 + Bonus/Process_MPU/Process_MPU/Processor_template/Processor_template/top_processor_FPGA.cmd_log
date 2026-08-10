@@ -1,0 +1,252 @@
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "T:/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "T:/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "C:/Users/mb8721/Downloads/ Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Aman/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+xst -intstyle ise -ifn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 
+xst -intstyle ise -ifn "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.xst" -ofn "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p xc3s100e-cp132-4 "top_processor_FPGA.ngc" top_processor_FPGA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_processor_FPGA_map.ncd top_processor_FPGA.ngd top_processor_FPGA.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 top_processor_FPGA_map.ncd top_processor_FPGA.ncd top_processor_FPGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_processor_FPGA.twx top_processor_FPGA.ncd -o top_processor_FPGA.twr top_processor_FPGA.pcf -ucf top_processor_FPGA.ucf 
+bitgen -intstyle ise -f top_processor_FPGA.ut top_processor_FPGA.ncd 

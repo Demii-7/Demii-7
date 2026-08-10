@@ -1,0 +1,775 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: top_processor_FPGA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_processor_FPGA.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_processor_FPGA"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : top_processor_FPGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/common.vhd" in Library work.
+Architecture common of Entity common is up to date.
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Instructions_ROM.vhd" in Library work.
+Architecture behavioral of Entity instructions_rom is up to date.
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Decoder.vhd" in Library work.
+Architecture behavioral of Entity decoder is up to date.
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Controller.vhd" in Library work.
+Architecture behavioral of Entity controller is up to date.
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/PC.vhd" in Library work.
+Architecture behavioral of Entity pc is up to date.
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Registers.vhd" in Library work.
+Architecture behavioral of Entity registers is up to date.
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.vhd" in Library work.
+Architecture behavioral of Entity top_processor_fpga is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top_processor_FPGA> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Instructions_ROM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Controller> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PC> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Registers> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top_processor_FPGA> in library <work> (Architecture <behavioral>).
+    Set property "ENUM_ENCODING = 0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111" for signal <opcode_internal>.
+    Set property "ENUM_ENCODING = 0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111" for signal <opcode_display>.
+WARNING:Xst:2211 - "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.vhd" line 192: Instantiating black box module <Display_Controller>.
+Entity <top_processor_FPGA> analyzed. Unit <top_processor_FPGA> generated.
+
+Analyzing Entity <Instructions_ROM> in library <work> (Architecture <behavioral>).
+Entity <Instructions_ROM> analyzed. Unit <Instructions_ROM> generated.
+
+Analyzing Entity <Decoder> in library <work> (Architecture <behavioral>).
+    Set property "ENUM_ENCODING = 0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111" for signal <opcode_internal>.
+INFO:Xst:1561 - "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/common.vhd" line 53: Mux is complete : default of case is discarded
+Entity <Decoder> analyzed. Unit <Decoder> generated.
+
+Analyzing Entity <Controller> in library <work> (Architecture <behavioral>).
+Entity <Controller> analyzed. Unit <Controller> generated.
+
+Analyzing Entity <PC> in library <work> (Architecture <behavioral>).
+Entity <PC> analyzed. Unit <PC> generated.
+
+Analyzing Entity <Registers> in library <work> (Architecture <behavioral>).
+Entity <Registers> analyzed. Unit <Registers> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <reg<0>> in unit <Registers> has a constant value of 00000000000000 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <Instructions_ROM>.
+    Related source file is "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Instructions_ROM.vhd".
+    Found 128x4-bit ROM for signal <address_in$rom0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Instructions_ROM> synthesized.
+
+
+Synthesizing Unit <Decoder>.
+    Related source file is "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Decoder.vhd".
+    Found 16x4-bit ROM for signal <opcode_internal>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Decoder> synthesized.
+
+
+Synthesizing Unit <Controller>.
+    Related source file is "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Controller.vhd".
+    Found 16x1-bit ROM for signal <Rd_we>.
+    Found 14-bit 16-to-1 multiplexer for signal <Rd_data>.
+    Found 1-bit 16-to-1 multiplexer for signal <PC_we>.
+    Found 7-bit 3-to-1 multiplexer for signal <new_PC>.
+    Found 14-bit 16-to-1 multiplexer for signal <operand_1>.
+    Found 14-bit 16-to-1 multiplexer for signal <operand_2>.
+    Found 14-bit comparator equal for signal <PC_incr$cmp_eq0014> created at line 70.
+    Found 14-bit comparator less for signal <PC_incr$cmp_lt0000> created at line 58.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   2 Comparator(s).
+	inferred  50 Multiplexer(s).
+Unit <Controller> synthesized.
+
+
+Synthesizing Unit <PC>.
+    Related source file is "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/PC.vhd".
+    Found 7-bit up counter for signal <PC_reg>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <PC> synthesized.
+
+
+Synthesizing Unit <Registers>.
+    Related source file is "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Registers.vhd".
+    Found 14-bit 8-to-1 multiplexer for signal <Trace_data_out>.
+    Found 14-bit 8-to-1 multiplexer for signal <Rs2_data_out>.
+    Found 14-bit 8-to-1 multiplexer for signal <Rs1_data_out>.
+    Found 98-bit register for signal <reg<1:7>>.
+    Summary:
+	inferred  98 D-type flip-flop(s).
+	inferred  42 Multiplexer(s).
+Unit <Registers> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/ALU.vhd".
+    Found 1-bit xor2 for signal <overflow$xor0000> created at line 74.
+    Found 1-bit xor2 for signal <overflow$xor0001> created at line 74.
+    Found 14-bit 16-to-1 multiplexer for signal <result_internal>.
+    Found 14-bit addsub for signal <result_internal$addsub0000>.
+    Found 14-bit shifter logical left for signal <result_internal$shift0004> created at line 52.
+    Found 14-bit shifter logical right for signal <result_internal$shift0005> created at line 56.
+    Found 14-bit xor2 for signal <result_internal$xor0000> created at line 48.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <top_processor_FPGA>.
+    Related source file is "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.vhd".
+Unit <top_processor_FPGA> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 3
+ 128x4-bit ROM                                         : 1
+ 16x1-bit ROM                                          : 1
+ 16x4-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 14-bit addsub                                         : 1
+# Counters                                             : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 7
+ 14-bit register                                       : 7
+# Comparators                                          : 2
+ 14-bit comparator equal                               : 1
+ 14-bit comparator less                                : 1
+# Multiplexers                                         : 9
+ 1-bit 16-to-1 multiplexer                             : 1
+ 14-bit 16-to-1 multiplexer                            : 4
+ 14-bit 8-to-1 multiplexer                             : 3
+ 7-bit 3-to-1 multiplexer                              : 1
+# Logic shifters                                       : 2
+ 14-bit shifter logical left                           : 1
+ 14-bit shifter logical right                          : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 14-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <Display_Controller.ngc>.
+Loading core <Display_Controller> for timing and area information for instance <Display_Controller_inst>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 3
+ 128x4-bit ROM                                         : 1
+ 16x1-bit ROM                                          : 1
+ 16x4-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 14-bit addsub                                         : 1
+# Counters                                             : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 98
+ Flip-Flops                                            : 98
+# Comparators                                          : 2
+ 14-bit comparator equal                               : 1
+ 14-bit comparator less                                : 1
+# Multiplexers                                         : 9
+ 1-bit 16-to-1 multiplexer                             : 1
+ 14-bit 16-to-1 multiplexer                            : 4
+ 14-bit 8-to-1 multiplexer                             : 3
+ 7-bit 3-to-1 multiplexer                              : 1
+# Logic shifters                                       : 2
+ 14-bit shifter logical left                           : 1
+ 14-bit shifter logical right                          : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 14-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top_processor_FPGA> ...
+
+Optimizing unit <Controller> ...
+
+Optimizing unit <Registers> ...
+
+Optimizing unit <ALU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top_processor_FPGA, actual ratio is 44.
+FlipFlop PC_inst/PC_reg_1 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 106
+ Flip-Flops                                            : 106
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top_processor_FPGA.ngr
+Top Level Output File Name         : top_processor_FPGA
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 1153
+#      GND                         : 2
+#      INV                         : 20
+#      LUT1                        : 46
+#      LUT2                        : 133
+#      LUT2_D                      : 1
+#      LUT2_L                      : 3
+#      LUT3                        : 251
+#      LUT3_D                      : 8
+#      LUT3_L                      : 1
+#      LUT4                        : 336
+#      LUT4_D                      : 4
+#      LUT4_L                      : 1
+#      MUXCY                       : 113
+#      MUXF5                       : 119
+#      MUXF6                       : 42
+#      VCC                         : 2
+#      XORCY                       : 71
+# FlipFlops/Latches                : 154
+#      FDC                         : 43
+#      FDCE                        : 108
+#      FDPE                        : 3
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 6
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                      431  out of    960    44%  
+ Number of Slice Flip Flops:            154  out of   1920     8%  
+ Number of 4 input LUTs:                804  out of   1920    41%  
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of     83    22%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+clk                                | BUFGP                    | 48    |
+clk_proc1(clk_proc1:O)             | BUFG(*)(PC_inst/PC_reg_0)| 106   |
+-----------------------------------+--------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                                | Load  |
+-----------------------------------+------------------------------------------------+-------+
+rst                                | IBUF                                           | 106   |
+rst_disp(rst_disp1:O)              | NONE(Display_Controller_inst/clk_display_cnt_0)| 48    |
+-----------------------------------+------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 14.552ns (Maximum Frequency: 68.719MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 63.144ns
+   Maximum combinational path delay: 55.889ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.660ns (frequency: 150.160MHz)
+  Total number of paths / destination ports: 2479 / 53
+-------------------------------------------------------------------------
+Delay:               6.660ns (Levels of Logic = 15)
+  Source:            Display_Controller_inst/clk_display_cnt_0 (FF)
+  Destination:       Display_Controller_inst/display_mode_FSM_FFd3 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Display_Controller_inst/clk_display_cnt_0 to Display_Controller_inst/display_mode_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.706  clk_display_cnt_0 (clk_display_cnt<0>)
+     LUT4:I0->O            1   0.704   0.000  Mcompar_display_mode_cmp_gt0000_lut<0> (Mcompar_display_mode_cmp_gt0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_display_mode_cmp_gt0000_cy<0> (Mcompar_display_mode_cmp_gt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<1> (Mcompar_display_mode_cmp_gt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<2> (Mcompar_display_mode_cmp_gt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<3> (Mcompar_display_mode_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<4> (Mcompar_display_mode_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<5> (Mcompar_display_mode_cmp_gt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<6> (Mcompar_display_mode_cmp_gt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<7> (Mcompar_display_mode_cmp_gt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<8> (Mcompar_display_mode_cmp_gt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<9> (Mcompar_display_mode_cmp_gt0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<10> (Mcompar_display_mode_cmp_gt0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_display_mode_cmp_gt0000_cy<11> (Mcompar_display_mode_cmp_gt0000_cy<11>)
+     MUXCY:CI->O          30   0.459   1.297  Mcompar_display_mode_cmp_gt0000_cy<12> (Mcompar_display_mode_cmp_gt0000_cy<12>)
+     LUT3:I2->O            3   0.704   0.531  display_mode_not00011 (display_mode_not0001)
+     FDPE:CE                   0.555          display_mode_FSM_FFd3
+    ----------------------------------------
+    Total                      6.660ns (4.126ns logic, 2.534ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_proc1'
+  Clock period: 14.552ns (frequency: 68.719MHz)
+  Total number of paths / destination ports: 534844 / 212
+-------------------------------------------------------------------------
+Delay:               14.552ns (Levels of Logic = 18)
+  Source:            PC_inst/PC_reg_6 (FF)
+  Destination:       PC_inst/PC_reg_4 (FF)
+  Source Clock:      clk_proc1 rising
+  Destination Clock: clk_proc1 rising
+
+  Data Path: PC_inst/PC_reg_6 to PC_inst/PC_reg_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            16   0.591   1.038  PC_inst/PC_reg_6 (PC_inst/PC_reg_6)
+     LUT4:I3->O           20   0.704   1.106  Instructions_ROM_inst/data_out_10_mux000021 (N14)
+     LUT4:I3->O           17   0.704   1.086  Instructions_ROM_inst/data_out_6_mux00001 (instruction<6>)
+     LUT3:I2->O            1   0.704   0.000  Registers_inst/Mmux_Rs1_data_out_45 (Registers_inst/Mmux_Rs1_data_out_45)
+     MUXF5:I1->O           1   0.321   0.000  Registers_inst/Mmux_Rs1_data_out_3_f5_4 (Registers_inst/Mmux_Rs1_data_out_3_f55)
+     MUXF6:I1->O           3   0.521   0.706  Registers_inst/Mmux_Rs1_data_out_2_f6_4 (Rs1_data<1>)
+     LUT4:I0->O            1   0.704   0.000  Controller_inst/Mcompar_PC_incr_cmp_eq0014_lut<0> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<0> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<1> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<2> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<3> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<4> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<5> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<5>)
+     MUXCY:CI->O           3   0.459   0.610  Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<6> (Controller_inst/Mcompar_PC_incr_cmp_eq0014_cy<6>)
+     LUT4:I1->O            1   0.704   0.000  Controller_inst/Mmux_PC_we3_F (N127)
+     MUXF5:I0->O          10   0.321   0.886  Controller_inst/Mmux_PC_we3 (PC_we)
+     LUT4_D:I3->O          4   0.704   0.591  PC_inst/Mcount_PC_reg_xor<3>111 (N16)
+     LUT4:I3->O            1   0.704   0.000  PC_inst/Mcount_PC_reg_xor<4>1_F (N111)
+     MUXF5:I0->O           1   0.321   0.000  PC_inst/Mcount_PC_reg_xor<4>1 (PC_inst/Mcount_PC_reg4)
+     FDCE:D                    0.308          PC_inst/PC_reg_4
+    ----------------------------------------
+    Total                     14.552ns (8.529ns logic, 6.023ns route)
+                                       (58.6% logic, 41.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_proc1'
+  Total number of paths / destination ports: 6526189260480 / 9
+-------------------------------------------------------------------------
+Offset:              63.144ns (Levels of Logic = 60)
+  Source:            PC_inst/PC_reg_6 (FF)
+  Destination:       seg_bits<6> (PAD)
+  Source Clock:      clk_proc1 rising
+
+  Data Path: PC_inst/PC_reg_6 to seg_bits<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            16   0.591   1.038  PC_inst/PC_reg_6 (PC_inst/PC_reg_6)
+     LUT4_D:I3->O         21   0.704   1.163  Instructions_ROM_inst/data_out_4_mux000021 (N17)
+     LUT4:I2->O           17   0.704   1.086  Instructions_ROM_inst/data_out_3_mux0000 (instruction<3>)
+     LUT3:I2->O            1   0.704   0.000  Registers_inst/Mmux_Rs2_data_out_4 (Registers_inst/Mmux_Rs2_data_out_4)
+     MUXF5:I1->O           1   0.321   0.000  Registers_inst/Mmux_Rs2_data_out_3_f5 (Registers_inst/Mmux_Rs2_data_out_3_f5)
+     MUXF6:I1->O           3   0.521   0.535  Registers_inst/Mmux_Rs2_data_out_2_f6 (Rs2_data<0>)
+     LUT4:I3->O            2   0.704   0.482  Controller_inst/Mmux_operand_25 (operand_2_internal<0>)
+     LUT3:I2->O            1   0.704   0.000  ALU_inst/Maddsub_result_internal_addsub0000_lut<0> (ALU_inst/Maddsub_result_internal_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  ALU_inst/Maddsub_result_internal_addsub0000_cy<0> (ALU_inst/Maddsub_result_internal_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  ALU_inst/Maddsub_result_internal_addsub0000_cy<1> (ALU_inst/Maddsub_result_internal_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  ALU_inst/Maddsub_result_internal_addsub0000_cy<2> (ALU_inst/Maddsub_result_internal_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  ALU_inst/Maddsub_result_internal_addsub0000_cy<3> (ALU_inst/Maddsub_result_internal_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  ALU_inst/Maddsub_result_internal_addsub0000_cy<4> (ALU_inst/Maddsub_result_internal_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  ALU_inst/Maddsub_result_internal_addsub0000_cy<5> (ALU_inst/Maddsub_result_internal_addsub0000_cy<5>)
+     XORCY:CI->O           2   0.804   0.451  ALU_inst/Maddsub_result_internal_addsub0000_xor<6> (ALU_inst/result_internal_addsub0000<6>)
+     LUT4:I3->O            2   0.704   0.526  ALU_inst/opcode<3>101 (result_internal<6>)
+     LUT3:I1->O            1   0.704   0.455  display_data<6>1 (display_data<6>)
+     begin scope: 'Display_Controller_inst'
+     LUT3:I2->O            1   0.704   0.000  seg_in_signed_number<6>_G (N243)
+     MUXF5:I1->O           2   0.321   0.447  seg_in_signed_number<6> (seg_in_signed_number<6>)
+     INV:I->O              1   0.704   0.000  Display_Signed_BCD_inst/Madd_abs_num_not0000<6>1_INV_0 (Display_Signed_BCD_inst/Madd_abs_num_not0000<6>)
+     MUXCY:S->O            1   0.464   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<6> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<7> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<8> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<9> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<10> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<11> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<11>)
+     XORCY:CI->O           2   0.804   0.622  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_xor<12> (Display_Signed_BCD_inst/abs_num_addsub0000<12>)
+     LUT4:I0->O            8   0.704   0.932  Display_Signed_BCD_inst/Madd_bcd_7_4_add0000_lut<2>1 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0000_lut<2>)
+     LUT3:I0->O            2   0.704   0.482  Display_Signed_BCD_inst/Madd_bcd_3_0_add0001_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_3_0_add0001_cy<1>)
+     LUT4:I2->O            8   0.704   0.761  Display_Signed_BCD_inst/bcd_3_mux00011 (Display_Signed_BCD_inst/bcd_3_mux0001)
+     LUT4:I3->O            2   0.704   0.451  Display_Signed_BCD_inst/bcd_1_mux00011 (Display_Signed_BCD_inst/Madd_bcd_3_0_add0002_lut<2>)
+     LUT4:I3->O            9   0.704   0.995  Display_Signed_BCD_inst/bcd_3_mux000211 (Display_Signed_BCD_inst/N411)
+     LUT3:I0->O            2   0.704   0.622  Display_Signed_BCD_inst/bcd_1_mux000221 (Display_Signed_BCD_inst/N25)
+     LUT4:I0->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_3_mux000311 (Display_Signed_BCD_inst/N42)
+     LUT3:I0->O            1   0.704   0.595  Display_Signed_BCD_inst/bcd_1_mux000321 (Display_Signed_BCD_inst/N261)
+     LUT4:I0->O            7   0.704   0.787  Display_Signed_BCD_inst/bcd_3_mux000411 (Display_Signed_BCD_inst/N43)
+     LUT2:I1->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_3_mux00042 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0002_cy<0>)
+     LUT4:I0->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000211 (Display_Signed_BCD_inst/N35)
+     LUT2:I0->O            3   0.704   0.610  Display_Signed_BCD_inst/bcd_7_cmp_gt00021 (Display_Signed_BCD_inst/bcd_7_cmp_gt0002)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0003_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0003_cy<1>)
+     LUT4:I3->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000311 (Display_Signed_BCD_inst/N36)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00031 (Display_Signed_BCD_inst/bcd_7_cmp_gt0003)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0004_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0004_cy<1>)
+     LUT4:I3->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000411 (Display_Signed_BCD_inst/N37)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00041 (Display_Signed_BCD_inst/bcd_7_cmp_gt0004)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0005_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0005_cy<1>)
+     LUT4:I3->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_7_mux000511 (Display_Signed_BCD_inst/N38)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00051 (Display_Signed_BCD_inst/bcd_7_cmp_gt0005)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0006_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0006_cy<1>)
+     LUT4:I3->O            6   0.704   0.673  Display_Signed_BCD_inst/bcd_7_mux000611 (Display_Signed_BCD_inst/N39)
+     LUT4:I3->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_11_8_add0004_cy<1>1 (Display_Signed_BCD_inst/Madd_bcd_11_8_add0004_cy<1>)
+     LUT4:I3->O            6   0.704   0.704  Display_Signed_BCD_inst/bcd_11_mux000411 (Display_Signed_BCD_inst/N52)
+     LUT4:I2->O            1   0.704   0.455  Display_Signed_BCD_inst/bcd_9_mux000421 (Display_Signed_BCD_inst/N161)
+     LUT4:I2->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_9_mux00041 (Display_Signed_BCD_inst/bcd_100<2>)
+     LUT4:I0->O            1   0.704   0.455  seg_bits<6>255_SW0_SW0 (N196)
+     LUT4:I2->O            1   0.704   0.455  seg_bits<6>255_SW0 (N170)
+     LUT3:I2->O            1   0.704   0.000  seg_bits<6>422_SW0_F (N260)
+     MUXF5:I0->O           1   0.321   0.595  seg_bits<6>422_SW0 (N164)
+     LUT4:I0->O            1   0.704   0.420  seg_bits<6>422 (seg_bits<6>)
+     end scope: 'Display_Controller_inst'
+     OBUF:I->O                 3.272          seg_bits_6_OBUF (seg_bits<6>)
+    ----------------------------------------
+    Total                     63.144ns (36.633ns logic, 26.511ns route)
+                                       (58.0% logic, 42.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 5955914767 / 12
+-------------------------------------------------------------------------
+Offset:              52.127ns (Levels of Logic = 50)
+  Source:            Display_Controller_inst/display_mode_FSM_FFd1 (FF)
+  Destination:       seg_bits<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Display_Controller_inst/display_mode_FSM_FFd1 to seg_bits<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q            38   0.591   1.439  display_mode_FSM_FFd1 (display_mode_FSM_FFd1)
+     LUT3:I0->O            1   0.704   0.000  seg_in_signed_number<0>_F (N254)
+     MUXF5:I0->O           3   0.321   0.706  seg_in_signed_number<0> (seg_in_signed_number<0>)
+     LUT1:I0->O            1   0.704   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0>_rt (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<1> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<2> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<3> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<4> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<5> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<6> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<7> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<8> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<9> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<10> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<11> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<11>)
+     XORCY:CI->O           2   0.804   0.622  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_xor<12> (Display_Signed_BCD_inst/abs_num_addsub0000<12>)
+     LUT4:I0->O            8   0.704   0.932  Display_Signed_BCD_inst/Madd_bcd_7_4_add0000_lut<2>1 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0000_lut<2>)
+     LUT3:I0->O            2   0.704   0.482  Display_Signed_BCD_inst/Madd_bcd_3_0_add0001_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_3_0_add0001_cy<1>)
+     LUT4:I2->O            8   0.704   0.761  Display_Signed_BCD_inst/bcd_3_mux00011 (Display_Signed_BCD_inst/bcd_3_mux0001)
+     LUT4:I3->O            2   0.704   0.451  Display_Signed_BCD_inst/bcd_1_mux00011 (Display_Signed_BCD_inst/Madd_bcd_3_0_add0002_lut<2>)
+     LUT4:I3->O            9   0.704   0.995  Display_Signed_BCD_inst/bcd_3_mux000211 (Display_Signed_BCD_inst/N411)
+     LUT3:I0->O            2   0.704   0.622  Display_Signed_BCD_inst/bcd_1_mux000221 (Display_Signed_BCD_inst/N25)
+     LUT4:I0->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_3_mux000311 (Display_Signed_BCD_inst/N42)
+     LUT3:I0->O            1   0.704   0.595  Display_Signed_BCD_inst/bcd_1_mux000321 (Display_Signed_BCD_inst/N261)
+     LUT4:I0->O            7   0.704   0.787  Display_Signed_BCD_inst/bcd_3_mux000411 (Display_Signed_BCD_inst/N43)
+     LUT2:I1->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_3_mux00042 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0002_cy<0>)
+     LUT4:I0->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000211 (Display_Signed_BCD_inst/N35)
+     LUT2:I0->O            3   0.704   0.610  Display_Signed_BCD_inst/bcd_7_cmp_gt00021 (Display_Signed_BCD_inst/bcd_7_cmp_gt0002)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0003_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0003_cy<1>)
+     LUT4:I3->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000311 (Display_Signed_BCD_inst/N36)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00031 (Display_Signed_BCD_inst/bcd_7_cmp_gt0003)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0004_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0004_cy<1>)
+     LUT4:I3->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000411 (Display_Signed_BCD_inst/N37)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00041 (Display_Signed_BCD_inst/bcd_7_cmp_gt0004)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0005_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0005_cy<1>)
+     LUT4:I3->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_7_mux000511 (Display_Signed_BCD_inst/N38)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00051 (Display_Signed_BCD_inst/bcd_7_cmp_gt0005)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0006_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0006_cy<1>)
+     LUT4:I3->O            6   0.704   0.673  Display_Signed_BCD_inst/bcd_7_mux000611 (Display_Signed_BCD_inst/N39)
+     LUT4:I3->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_11_8_add0004_cy<1>1 (Display_Signed_BCD_inst/Madd_bcd_11_8_add0004_cy<1>)
+     LUT4:I3->O            6   0.704   0.704  Display_Signed_BCD_inst/bcd_11_mux000411 (Display_Signed_BCD_inst/N52)
+     LUT4:I2->O            1   0.704   0.455  Display_Signed_BCD_inst/bcd_9_mux000421 (Display_Signed_BCD_inst/N161)
+     LUT4:I2->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_9_mux00041 (Display_Signed_BCD_inst/bcd_100<2>)
+     LUT4:I0->O            1   0.704   0.455  seg_bits<6>255_SW0_SW0 (N196)
+     LUT4:I2->O            1   0.704   0.455  seg_bits<6>255_SW0 (N170)
+     LUT3:I2->O            1   0.704   0.000  seg_bits<6>422_SW0_F (N260)
+     MUXF5:I0->O           1   0.321   0.595  seg_bits<6>422_SW0 (N164)
+     LUT4:I0->O            1   0.704   0.420  seg_bits<6>422 (seg_bits<6>)
+     end scope: 'Display_Controller_inst'
+     OBUF:I->O                 3.272          seg_bits_6_OBUF (seg_bits<6>)
+    ----------------------------------------
+    Total                     52.127ns (29.654ns logic, 22.473ns route)
+                                       (56.9% logic, 43.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 22274975671 / 9
+-------------------------------------------------------------------------
+Delay:               55.889ns (Levels of Logic = 55)
+  Source:            reg_sig<0> (PAD)
+  Destination:       seg_bits<6> (PAD)
+
+  Data Path: reg_sig<0> to seg_bits<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            57   1.218   1.445  reg_sig_0_IBUF (reg_sig_0_IBUF)
+     LUT3:I0->O            1   0.704   0.000  Registers_inst/Mmux_Trace_data_out_4 (Registers_inst/Mmux_Trace_data_out_4)
+     MUXF5:I1->O           1   0.321   0.000  Registers_inst/Mmux_Trace_data_out_3_f5 (Registers_inst/Mmux_Trace_data_out_3_f5)
+     MUXF6:I1->O           1   0.521   0.424  Registers_inst/Mmux_Trace_data_out_2_f6 (trace_data<0>)
+     LUT4:I3->O            1   0.704   0.455  display_data<0>1 (display_data<0>)
+     begin scope: 'Display_Controller_inst'
+     LUT3:I2->O            1   0.704   0.000  seg_in_signed_number<0>_G (N255)
+     MUXF5:I1->O           3   0.321   0.706  seg_in_signed_number<0> (seg_in_signed_number<0>)
+     LUT1:I0->O            1   0.704   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0>_rt (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<1> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<2> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<3> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<4> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<5> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<6> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<7> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<8> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<9> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<10> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<11> (Display_Signed_BCD_inst/Madd_abs_num_addsub0000_cy<11>)
+     XORCY:CI->O           2   0.804   0.622  Display_Signed_BCD_inst/Madd_abs_num_addsub0000_xor<12> (Display_Signed_BCD_inst/abs_num_addsub0000<12>)
+     LUT4:I0->O            8   0.704   0.932  Display_Signed_BCD_inst/Madd_bcd_7_4_add0000_lut<2>1 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0000_lut<2>)
+     LUT3:I0->O            2   0.704   0.482  Display_Signed_BCD_inst/Madd_bcd_3_0_add0001_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_3_0_add0001_cy<1>)
+     LUT4:I2->O            8   0.704   0.761  Display_Signed_BCD_inst/bcd_3_mux00011 (Display_Signed_BCD_inst/bcd_3_mux0001)
+     LUT4:I3->O            2   0.704   0.451  Display_Signed_BCD_inst/bcd_1_mux00011 (Display_Signed_BCD_inst/Madd_bcd_3_0_add0002_lut<2>)
+     LUT4:I3->O            9   0.704   0.995  Display_Signed_BCD_inst/bcd_3_mux000211 (Display_Signed_BCD_inst/N411)
+     LUT3:I0->O            2   0.704   0.622  Display_Signed_BCD_inst/bcd_1_mux000221 (Display_Signed_BCD_inst/N25)
+     LUT4:I0->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_3_mux000311 (Display_Signed_BCD_inst/N42)
+     LUT3:I0->O            1   0.704   0.595  Display_Signed_BCD_inst/bcd_1_mux000321 (Display_Signed_BCD_inst/N261)
+     LUT4:I0->O            7   0.704   0.787  Display_Signed_BCD_inst/bcd_3_mux000411 (Display_Signed_BCD_inst/N43)
+     LUT2:I1->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_3_mux00042 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0002_cy<0>)
+     LUT4:I0->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000211 (Display_Signed_BCD_inst/N35)
+     LUT2:I0->O            3   0.704   0.610  Display_Signed_BCD_inst/bcd_7_cmp_gt00021 (Display_Signed_BCD_inst/bcd_7_cmp_gt0002)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0003_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0003_cy<1>)
+     LUT4:I3->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000311 (Display_Signed_BCD_inst/N36)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00031 (Display_Signed_BCD_inst/bcd_7_cmp_gt0003)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0004_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0004_cy<1>)
+     LUT4:I3->O            5   0.704   0.808  Display_Signed_BCD_inst/bcd_7_mux000411 (Display_Signed_BCD_inst/N37)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00041 (Display_Signed_BCD_inst/bcd_7_cmp_gt0004)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0005_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0005_cy<1>)
+     LUT4:I3->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_7_mux000511 (Display_Signed_BCD_inst/N38)
+     LUT2:I0->O            2   0.704   0.526  Display_Signed_BCD_inst/bcd_7_cmp_gt00051 (Display_Signed_BCD_inst/bcd_7_cmp_gt0005)
+     LUT4:I1->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_7_4_add0006_cy<1>11 (Display_Signed_BCD_inst/Madd_bcd_7_4_add0006_cy<1>)
+     LUT4:I3->O            6   0.704   0.673  Display_Signed_BCD_inst/bcd_7_mux000611 (Display_Signed_BCD_inst/N39)
+     LUT4:I3->O            2   0.704   0.451  Display_Signed_BCD_inst/Madd_bcd_11_8_add0004_cy<1>1 (Display_Signed_BCD_inst/Madd_bcd_11_8_add0004_cy<1>)
+     LUT4:I3->O            6   0.704   0.704  Display_Signed_BCD_inst/bcd_11_mux000411 (Display_Signed_BCD_inst/N52)
+     LUT4:I2->O            1   0.704   0.455  Display_Signed_BCD_inst/bcd_9_mux000421 (Display_Signed_BCD_inst/N161)
+     LUT4:I2->O            7   0.704   0.883  Display_Signed_BCD_inst/bcd_9_mux00041 (Display_Signed_BCD_inst/bcd_100<2>)
+     LUT4:I0->O            1   0.704   0.455  seg_bits<6>255_SW0_SW0 (N196)
+     LUT4:I2->O            1   0.704   0.455  seg_bits<6>255_SW0 (N170)
+     LUT3:I2->O            1   0.704   0.000  seg_bits<6>422_SW0_F (N260)
+     MUXF5:I0->O           1   0.321   0.595  seg_bits<6>422_SW0 (N164)
+     LUT4:I0->O            1   0.704   0.420  seg_bits<6>422 (seg_bits<6>)
+     end scope: 'Display_Controller_inst'
+     OBUF:I->O                 3.272          seg_bits_6_OBUF (seg_bits<6>)
+    ----------------------------------------
+    Total                     55.889ns (32.531ns logic, 23.358ns route)
+                                       (58.2% logic, 41.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.66 secs
+ 
+--> 
+
+Total memory usage is 4524480 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

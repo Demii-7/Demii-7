@@ -1,0 +1,16 @@
+PB common common "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/common.vhd" sub00/vhpl01 1741618866
+EN instructions_rom NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Instructions_ROM.vhd" sub00/vhpl02 1741618867
+EN top_processor_fpga NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.vhd" sub00/vhpl14 1741618879
+AR registers behavioral "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Registers.vhd" sub00/vhpl11 1741618876
+AR top_processor_fpga behavioral "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.vhd" sub00/vhpl15 1741618880
+EN pc NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/PC.vhd" sub00/vhpl08 1741618873
+AR decoder behavioral "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Decoder.vhd" sub00/vhpl05 1741618870
+PH common NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/common.vhd" sub00/vhpl00 1741618865
+AR instructions_rom behavioral "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Instructions_ROM.vhd" sub00/vhpl03 1741618868
+AR alu behavioral "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/ALU.vhd" sub00/vhpl13 1741618878
+EN decoder NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Decoder.vhd" sub00/vhpl04 1741618869
+EN controller NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Controller.vhd" sub00/vhpl06 1741618871
+AR pc behavioral "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/PC.vhd" sub00/vhpl09 1741618874
+AR controller behavioral "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Controller.vhd" sub00/vhpl07 1741618872
+EN registers NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/Registers.vhd" sub00/vhpl10 1741618875
+EN alu NULL "D:/Lab_4_as18181_dsw9740/Lab 4-5/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/ALU.vhd" sub00/vhpl12 1741618877

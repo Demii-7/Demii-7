@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/top_processor_FPGA.vhd</arg>&quot; line <arg fmt="%d" index="2">167</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Display_Controller</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">D:/Lab_4_as18181_dsw9740/Lab 1-2/Processor_Sim/common.vhd</arg>&quot; line <arg fmt="%d" index="2">53</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">reg&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Registers</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+</messages>
+

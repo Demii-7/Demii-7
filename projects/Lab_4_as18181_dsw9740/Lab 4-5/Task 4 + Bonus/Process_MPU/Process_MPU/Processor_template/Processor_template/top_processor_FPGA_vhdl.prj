@@ -1,0 +1,8 @@
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\common.vhd"
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\Registers.vhd"
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\PC.vhd"
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\Instructions_ROM.vhd"
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\Decoder.vhd"
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\Controller.vhd"
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\ALU.vhd"
+vhdl work "D:\Lab_4_as18181_dsw9740\Lab 4-5\Task 4 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\top_processor_FPGA.vhd"

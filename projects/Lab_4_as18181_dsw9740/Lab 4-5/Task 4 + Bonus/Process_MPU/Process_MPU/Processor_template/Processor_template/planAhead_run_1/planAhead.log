@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Mar 10 17:21:08 2025
+# Process ID: 18828
+# Log file: D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/planAhead_run_1/planAhead.log
+# Journal file: D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -3936 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/pa.fromNetlist.tcl}
+# create_project -name Processor -dir "D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/planAhead_run_1" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template} }
+# set_property target_constrs_file "top_processor_FPGA.ucf" [current_fileset -constrset]
+Adding file 'D:/Task 4 + Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processor_FPGA.ucf' to fileset 'constrs_1'
+# add_files [list {top_processor_FPGA.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_processor_FPGA.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_processor_FPGA.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus operand_2_internal<13 : 0> on block
+   top_processor_FPGA is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file top_processor_FPGA.edif ...
+ngc2edif: Total memory usage is 4314528 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Processor.data/cache/top_processor_FPGA_ngc_zx.edif]
+INFO: [Common 17-344] 'link_design' was cancelled
+INFO: [Common 17-344] 'source' was cancelled

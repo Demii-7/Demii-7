@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc top_processor_FPGA.ucf -p
+xc3s100e-cp132-4 top_processor_FPGA.ngc top_processor_FPGA.ngd
+
+Reading NGO file "D:/Lab_4_as18181_dsw9740/Lab 3/Task 3 +
+Bonus/Process_MPU/Process_MPU/Processor_template/Processor_template/top_processo
+r_FPGA.ngc" ...
+Loading design module "D:\Lab_4_as18181_dsw9740\Lab 3\Task 3 +
+Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template/Display_Cont
+roller.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "top_processor_FPGA.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4388152 kilobytes
+
+Writing NGD file "top_processor_FPGA.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "top_processor_FPGA.bld"...

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Task 3 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\impact.xsl
+OUTFILE=D:\Task 3 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=D:\Task 3 + Bonus\Process_MPU\Process_MPU\Processor_template\Processor_template
+LICENSE=iMPACT
+USER_INFO=iMPACT
