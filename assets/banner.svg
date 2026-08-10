@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Demarce Williams profile banner</title>
+  <desc id="desc">A dark engineering themed banner connecting signals, sensing, computation, control, and robotics with schematic style graphics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#06090f" />
+      <stop offset="100%" stop-color="#0d1521" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#4fd1ff" />
+      <stop offset="100%" stop-color="#7dd3fc" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="420" rx="28" fill="url(#bg)" />
+  <rect x="20" y="20" width="1560" height="380" rx="20" fill="none" stroke="#1f3144" stroke-width="1.5" />
+
+  <g opacity="0.18" stroke="#66d9ff" stroke-width="1">
+    <path d="M40 92 H560" />
+    <path d="M1040 330 H1560" />
+    <path d="M70 345 H300" />
+    <path d="M1290 78 H1530" />
+  </g>
+
+  <g transform="translate(80 74)">
+    <rect x="0" y="0" width="360" height="272" rx="18" fill="#0a111a" stroke="#213345" stroke-width="1.5" />
+    <text x="28" y="34" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="2.2">SIGNALS / SPECTRUM</text>
+    <g opacity="0.75" stroke="#294154" stroke-width="1">
+      <path d="M28 84 H332" />
+      <path d="M28 124 H332" />
+      <path d="M28 164 H332" />
+      <path d="M28 204 H332" />
+      <path d="M28 244 H332" />
+      <path d="M28 64 V252" />
+      <path d="M88 64 V252" />
+      <path d="M148 64 V252" />
+      <path d="M208 64 V252" />
+      <path d="M268 64 V252" />
+      <path d="M328 64 V252" />
+    </g>
+    <path d="M28 216 C56 210, 64 138, 92 138 S128 214, 156 214 S188 98, 216 98 S248 186, 276 186 S304 128, 332 124" fill="none" stroke="url(#accent)" stroke-width="3" filter="url(#glow)" />
+    <polyline points="28,188 58,176 88,198 118,154 148,170 178,126 208,134 238,106 268,118 298,92 332,102" fill="none" stroke="#93c5fd" stroke-width="2" opacity="0.95" />
+    <g fill="#67e8f9" opacity="0.95">
+      <circle cx="92" cy="138" r="4" />
+      <circle cx="216" cy="98" r="4" />
+      <circle cx="332" cy="124" r="4" />
+    </g>
+  </g>
+
+  <g transform="translate(520 64)">
+    <rect x="0" y="0" width="560" height="292" rx="18" fill="#0a111a" stroke="#213345" stroke-width="1.5" />
+    <text x="280" y="34" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3">SENSING TO CONTROL PIPELINE</text>
+
+    <g transform="translate(44 102)">
+      <rect x="0" y="0" width="108" height="80" rx="14" fill="#0f1724" stroke="#4fd1ff" stroke-width="1.6" />
+      <text x="54" y="35" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="18">Sensing</text>
+      <text x="54" y="56" text-anchor="middle" fill="#93a6ba" font-family="Arial, Helvetica, sans-serif" font-size="12">measurements</text>
+      <circle cx="18" cy="40" r="4" fill="#67e8f9" />
+      <circle cx="90" cy="40" r="4" fill="#67e8f9" />
+    </g>
+
+    <g transform="translate(226 102)">
+      <rect x="0" y="0" width="108" height="80" rx="14" fill="#0f1724" stroke="#4fd1ff" stroke-width="1.6" />
+      <text x="54" y="35" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="18">Compute</text>
+      <text x="54" y="56" text-anchor="middle" fill="#93a6ba" font-family="Arial, Helvetica, sans-serif" font-size="12">models</text>
+      <path d="M20 24 H88 V56 H20 Z" fill="none" stroke="#93c5fd" stroke-width="1.2" opacity="0.8" />
+      <path d="M34 34 H74 M34 46 H62" stroke="#93c5fd" stroke-width="1.2" opacity="0.8" />
+    </g>
+
+    <g transform="translate(408 102)">
+      <rect x="0" y="0" width="108" height="80" rx="14" fill="#0f1724" stroke="#4fd1ff" stroke-width="1.6" />
+      <text x="54" y="35" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="18">Control</text>
+      <text x="54" y="56" text-anchor="middle" fill="#93a6ba" font-family="Arial, Helvetica, sans-serif" font-size="12">decisions</text>
+      <path d="M24 40 H84" stroke="#93c5fd" stroke-width="1.2" opacity="0.85" />
+      <path d="M66 28 L84 40 L66 52" fill="none" stroke="#93c5fd" stroke-width="1.2" opacity="0.85" />
+    </g>
+
+    <g stroke="url(#accent)" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M152 142 H226" />
+      <path d="M334 142 H408" />
+      <path d="M210 220 C210 252, 366 252, 366 220" opacity="0.9" />
+      <path d="M366 220 L356 210 M366 220 L376 210" opacity="0.9" />
+      <path d="M210 220 L200 210 M210 220 L220 210" opacity="0.9" />
+    </g>
+    <g fill="#67e8f9">
+      <circle cx="152" cy="142" r="4" />
+      <circle cx="226" cy="142" r="4" />
+      <circle cx="334" cy="142" r="4" />
+      <circle cx="408" cy="142" r="4" />
+    </g>
+  </g>
+
+  <g transform="translate(1160 74)">
+    <rect x="0" y="0" width="360" height="272" rx="18" fill="#0a111a" stroke="#213345" stroke-width="1.5" />
+    <text x="28" y="34" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="2.2">ROBOTICS / PHYSICAL SYSTEMS</text>
+
+    <g transform="translate(44 70)" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.95">
+      <circle cx="38" cy="118" r="22" />
+      <circle cx="236" cy="118" r="22" />
+      <path d="M60 118 H112 L146 84 L196 84 L214 118" />
+      <path d="M112 118 L146 146 L188 146 L214 118" />
+      <rect x="128" y="52" width="38" height="24" rx="6" />
+      <path d="M147 52 V24" />
+      <circle cx="147" cy="18" r="6" />
+    </g>
+
+    <g transform="translate(208 44)">
+      <circle cx="60" cy="94" r="44" fill="none" stroke="url(#accent)" stroke-width="2" />
+      <path d="M60 50 A44 44 0 0 1 98 72" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" />
+      <path d="M60 138 A44 44 0 0 1 26 122" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" />
+      <path d="M60 26 V8 M112 94 H130 M60 180 V162 M8 94 H-10" stroke="#294154" stroke-width="1.2" />
+      <text x="60" y="100" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="13">feedback</text>
+    </g>
+  </g>
+
+  <g>
+    <text x="800" y="168" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="4">DEMARCE WILLIAMS</text>
+    <text x="800" y="216" text-anchor="middle" fill="#dbe4ee" font-family="Arial, Helvetica, sans-serif" font-size="22">Electrical Engineering @ NYU Abu Dhabi</text>
+    <text x="800" y="260" text-anchor="middle" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="20">Robotics • Autonomous Systems • Control • Machine Learning</text>
+    <path d="M530 286 H1070" stroke="url(#accent)" stroke-width="2" opacity="0.9" />
+    <text x="800" y="318" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.5">signals → sensing → computation → control → physical systems</text>
+  </g>
+</svg>
