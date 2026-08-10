@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://YOUR_PORTFOLIO_URL">Website</a> ·
-  <a href="https://YOUR_LINKEDIN_URL">LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/demarce-williams-7d3e0m7ii/">LinkedIn</a> ·
   <a href="https://YOUR_CV_URL">CV</a> ·
-  <a href="mailto:YOUR_EMAIL">Email</a>
+  <a href="mailto:dsw9740@nyu.edu">Email</a>
 </p>
 
 ---
@@ -78,6 +78,6 @@ A controlled benchmark of spectrum prediction models across multiple wireless re
 ## Quick Links
 
 - **Portfolio:** [Website](https://YOUR_PORTFOLIO_URL)
-- **LinkedIn:** [LinkedIn](https://YOUR_LINKEDIN_URL)
+- **LinkedIn:** [LinkedIn]([https://YOUR_LINKEDIN_URL](https://www.linkedin.com/in/demarce-williams-7d3e0m7ii/)
 - **CV:** [CV](https://YOUR_CV_URL)
-- **Email:** [Email](mailto:YOUR_EMAIL)
+- **Email:** [Email](mailto:dsw9740@nyu.edu)
