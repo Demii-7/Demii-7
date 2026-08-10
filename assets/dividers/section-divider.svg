@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" role="img" aria-labelledby="title desc">
+  <title id="title">Section divider</title>
+  <desc id="desc">Subtle technical divider with thin cyan line motifs.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67e8f9" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="56" fill="none"/>
+  <path d="M40 28 H470" stroke="url(#line)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M730 28 H1160" stroke="url(#line)" stroke-width="1.5" stroke-linecap="round"/>
+  <g transform="translate(506 14)" stroke="#67e8f9" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="18" cy="14" r="4" fill="#67e8f9"/>
+    <path d="M22 14 H70"/>
+    <path d="M70 14 C80 6, 92 6, 102 14 S124 22, 134 14"/>
+    <path d="M134 14 H182"/>
+    <circle cx="186" cy="14" r="4" fill="#67e8f9"/>
+  </g>
+</svg>

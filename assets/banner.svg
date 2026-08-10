@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
+  <title id="title">Demarce Williams banner</title>
+  <desc id="desc">Profile banner for Demarce Williams with engineering, robotics, autonomous systems, control, and machine learning themes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#101823"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1564" height="324" rx="18" fill="none" stroke="#243447" stroke-width="1.5"/>
+
+  <g opacity="0.5" stroke="#223244" stroke-width="1">
+    <path d="M72 92 H500"/>
+    <path d="M1110 268 H1528"/>
+    <path d="M72 286 H340"/>
+    <path d="M1260 84 H1528"/>
+  </g>
+
+  <g transform="translate(88 84)">
+    <text x="0" y="-16" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">SIGNALS</text>
+    <g opacity="0.65" stroke="#294154" stroke-width="1">
+      <path d="M0 26 H290"/>
+      <path d="M0 58 H290"/>
+      <path d="M0 90 H290"/>
+      <path d="M0 122 H290"/>
+      <path d="M0 154 H290"/>
+    </g>
+    <path d="M0 122 C22 122, 28 56, 52 56 S80 130, 104 130 S134 40, 156 40 S190 108, 214 108 S244 66, 290 64" fill="none" stroke="url(#accent)" stroke-width="3"/>
+    <polyline points="0,98 24,86 48,104 72,76 96,84 120,58 144,66 168,44 192,52 216,38 240,46 264,30 290,36" fill="none" stroke="#93c5fd" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(1212 84)">
+    <text x="0" y="-16" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">SYSTEMS</text>
+    <g stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.95">
+      <circle cx="28" cy="126" r="20"/>
+      <circle cx="220" cy="126" r="20"/>
+      <path d="M48 126 H96 L126 96 H172 L200 126"/>
+      <path d="M96 126 L126 154 H178 L200 126"/>
+      <rect x="110" y="64" width="30" height="22" rx="4"/>
+      <path d="M125 64 V34"/>
+      <circle cx="125" cy="28" r="6"/>
+    </g>
+    <g transform="translate(192 20)">
+      <circle cx="46" cy="72" r="36" fill="none" stroke="url(#accent)" stroke-width="2"/>
+      <path d="M46 36 A36 36 0 0 1 76 52" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round"/>
+      <path d="M46 108 A36 36 0 0 1 20 96" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round"/>
+      <text x="46" y="77" text-anchor="middle" fill="#dbe4ee" font-family="Arial, Helvetica, sans-serif" font-size="12">feedback</text>
+    </g>
+  </g>
+
+  <g transform="translate(510 92)">
+    <text x="290" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="4">DEMARCE WILLIAMS</text>
+    <text x="290" y="84" text-anchor="middle" fill="#dbe4ee" font-family="Arial, Helvetica, sans-serif" font-size="23">Electrical Engineering @ NYU Abu Dhabi</text>
+    <text x="290" y="124" text-anchor="middle" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="20">Robotics • Autonomous Systems • Control • Machine Learning</text>
+    <path d="M60 154 H520" stroke="url(#accent)" stroke-width="2" opacity="0.9"/>
+    <text x="290" y="188" text-anchor="middle" fill="#94a8bc" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">signals → sensing → computation → control → physical systems</text>
+  </g>
+</svg>

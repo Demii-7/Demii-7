@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Spectrum prediction research overview</title>
+  <desc id="desc">Research overview showing measurements, forecasting models, predictions, and controlled generalization evaluation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1016"/>
+      <stop offset="100%" stop-color="#111a24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="24" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1160" height="720" rx="18" fill="none" stroke="#223446" stroke-width="1.5"/>
+
+  <text x="600" y="58" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Spectrum Prediction Research Overview</text>
+  <text x="600" y="88" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="15">From measurements to forecasting to controlled evaluation</text>
+
+  <g transform="translate(190 128)">
+    <rect x="0" y="0" width="820" height="360" rx="18" fill="#0e1620" stroke="#243447" stroke-width="1.4"/>
+
+    <rect x="210" y="22" width="400" height="68" rx="14" fill="#111b26" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="410" y="50" text-anchor="middle" fill="#e5eef7" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">MULTI-TESTBED SPECTRUM MEASUREMENTS</text>
+    <text x="410" y="71" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="12">illustrative inputs from multiple environments</text>
+
+    <path d="M410 90 V122" stroke="url(#accent)" stroke-width="2.1"/>
+    <path d="M402 112 L410 122 L418 112" fill="none" stroke="url(#accent)" stroke-width="2.1"/>
+
+    <rect x="150" y="122" width="520" height="92" rx="14" fill="#111b26" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="410" y="156" text-anchor="middle" fill="#e5eef7" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">PAST SPECTRUM OBSERVATIONS</text>
+    <text x="410" y="177" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="12">history windows used as forecasting context</text>
+    <g transform="translate(186 139)">
+      <rect x="0" y="0" width="76" height="48" rx="8" fill="#0a1118" stroke="#294154" stroke-width="1"/>
+      <rect x="88" y="0" width="76" height="48" rx="8" fill="#0a1118" stroke="#294154" stroke-width="1"/>
+      <rect x="176" y="0" width="76" height="48" rx="8" fill="#0a1118" stroke="#294154" stroke-width="1"/>
+      <rect x="264" y="0" width="76" height="48" rx="8" fill="#0a1118" stroke="#294154" stroke-width="1"/>
+      <rect x="352" y="0" width="76" height="48" rx="8" fill="#0a1118" stroke="#294154" stroke-width="1"/>
+      <path d="M10 35 C20 28, 28 12, 40 18 S58 38, 66 20" fill="none" stroke="#67e8f9" stroke-width="2"/>
+      <path d="M96 30 C108 14, 118 20, 128 26 S144 38, 152 18" fill="none" stroke="#93c5fd" stroke-width="2"/>
+      <path d="M184 34 C194 14, 206 14, 216 24 S232 40, 240 20" fill="none" stroke="#67e8f9" stroke-width="2"/>
+      <path d="M272 34 C282 20, 294 12, 304 18 S320 38, 328 22" fill="none" stroke="#93c5fd" stroke-width="2"/>
+      <path d="M360 30 C372 24, 384 10, 394 16 S412 34, 418 18" fill="none" stroke="#67e8f9" stroke-width="2"/>
+    </g>
+
+    <path d="M410 214 V246" stroke="url(#accent)" stroke-width="2.1"/>
+    <path d="M402 236 L410 246 L418 236" fill="none" stroke="url(#accent)" stroke-width="2.1"/>
+
+    <rect x="280" y="246" width="260" height="74" rx="14" fill="#111b26" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="410" y="277" text-anchor="middle" fill="#e5eef7" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">FORECASTING MODELS</text>
+    <text x="410" y="298" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="12">benchmarking multiple model families</text>
+
+    <path d="M410 320 V352" stroke="url(#accent)" stroke-width="2.1"/>
+    <path d="M402 342 L410 352 L418 342" fill="none" stroke="url(#accent)" stroke-width="2.1"/>
+
+    <rect x="230" y="352" width="360" height="72" rx="14" fill="#111b26" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="410" y="382" text-anchor="middle" fill="#e5eef7" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">FUTURE SPECTRUM PREDICTIONS</text>
+    <text x="410" y="403" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="12">forecast outputs used for controlled comparison</text>
+  </g>
+
+  <g transform="translate(110 530)">
+    <rect x="0" y="0" width="980" height="138" rx="18" fill="#0e1620" stroke="#243447" stroke-width="1.4"/>
+    <text x="490" y="32" text-anchor="middle" fill="#e5eef7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">CONTROLLED EVALUATION</text>
+    <g transform="translate(32 54)">
+      <rect x="0" y="0" width="210" height="56" rx="12" fill="#111b26" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="105" y="24" text-anchor="middle" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">TIME</text>
+      <text x="105" y="42" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="11">temporal structure</text>
+
+      <rect x="236" y="0" width="210" height="56" rx="12" fill="#111b26" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="341" y="24" text-anchor="middle" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">FREQUENCY</text>
+      <text x="341" y="42" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="11">spectral structure</text>
+
+      <rect x="472" y="0" width="210" height="56" rx="12" fill="#111b26" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="577" y="24" text-anchor="middle" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">SPACE</text>
+      <text x="577" y="42" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="11">spatial variation</text>
+
+      <rect x="708" y="0" width="210" height="56" rx="12" fill="#111b26" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="813" y="20" text-anchor="middle" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">TRANSFER /</text>
+      <text x="813" y="38" text-anchor="middle" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">GENERALIZATION</text>
+      <text x="813" y="50" text-anchor="middle" fill="#9fb2c7" font-family="Arial, Helvetica, sans-serif" font-size="11">across environments</text>
+    </g>
+  </g>
+</svg>
