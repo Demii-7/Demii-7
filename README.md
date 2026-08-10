@@ -39,35 +39,39 @@ A controlled benchmark of spectrum prediction models across multiple wireless re
 
 ### Programming
 
-<p align="center">
-  <img src="assets/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png" height="42" alt="Python">
-  <img src="assets/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-thumbnail.png" height="42" alt="C">
-  <img src="assets/matlab-mathworks-computer-icons-computer-software-others.jpg" height="42" alt="MATLAB">
-</p>
-
-Python · C++ · C · MATLAB · VHDL
+<table align="center">
+  <tr>
+    <td align="center" width="20%"><img src="assets/icons/python.svg" width="44" alt="Python"><br><sub>Python</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/cplusplus.svg" width="44" alt="C++"><br><sub>C++</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/c.svg" width="44" alt="C"><br><sub>C</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/matlab.svg" width="44" alt="MATLAB"><br><sub>MATLAB</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/vhdl.svg" width="44" alt="VHDL"><br><sub>VHDL</sub></td>
+  </tr>
+</table>
 
 ### Machine Learning & Scientific Computing
 
-<p align="center">
-  <img src="assets/pytorch.png" height="42" alt="PyTorch">
-  <img src="assets/numpy.svg" height="42" alt="NumPy">
-  <img src="assets/pandas.png" height="42" alt="Pandas">
-  <img src="assets/scikitlearn.webp" height="42" alt="scikit-learn">
-</p>
-
-PyTorch · NumPy · Pandas · scikit-learn · Matplotlib
+<table align="center">
+  <tr>
+    <td align="center" width="20%"><img src="assets/icons/pytorch.svg" width="44" alt="PyTorch"><br><sub>PyTorch</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/numpy.svg" width="44" alt="NumPy"><br><sub>NumPy</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/pandas.svg" width="44" alt="Pandas"><br><sub>Pandas</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/scikitlearn.svg" width="44" alt="scikit-learn"><br><sub>scikit-learn</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/matplotlib.svg" width="44" alt="Matplotlib"><br><sub>Matplotlib</sub></td>
+  </tr>
+</table>
 
 ### Development & Research
 
-<p align="center">
-  <img src="assets/Git_icon.svg.png" height="42" alt="Git">
-  <img src="assets/Octicons-mark-github.svg" height="42" alt="GitHub">
-  <img src="assets/Jupyter_logo.svg.png" height="42" alt="Jupyter">
-  <img src="assets/overleaf-latex-editor-icon.png.webp" height="42" alt="LaTeX">
-</p>
-
-Git · GitHub · Jupyter · LaTeX
+<table align="center">
+  <tr>
+    <td align="center" width="20%"><img src="assets/icons/git.svg" width="44" alt="Git"><br><sub>Git</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/github.svg" width="44" alt="GitHub"><br><sub>GitHub</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/jupyter.svg" width="44" alt="Jupyter"><br><sub>Jupyter</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/latex.svg" width="44" alt="LaTeX"><br><sub>LaTeX</sub></td>
+    <td align="center" width="20%"><img src="assets/icons/vscode.svg" width="44" alt="VS Code"><br><sub>VS Code</sub></td>
+  </tr>
+</table>
 
 ---
 
