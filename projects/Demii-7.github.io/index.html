@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demarce Williams | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio scaffold for Demarce Williams, Electrical Engineering student at NYU Abu Dhabi focused on robotics, autonomous systems, control, and embodied intelligence."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Demarce Williams home">
+        <span class="brand-text">Demarce Williams</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-menu"
+        aria-label="Open navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="site-menu">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cv" href="#" aria-disabled="true">CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">ELECTRICAL ENGINEERING @ NYU ABU DHABI</p>
+        <div class="hero-rule" aria-hidden="true"></div>
+        <h1 id="hero-title">DEMARCE WILLIAMS</h1>
+        <p class="focus-line">Robotics · Autonomous Systems · Control · Embodied Intelligence</p>
+        <p class="hero-summary">
+          Interested in how algorithms, sensing, control, and physical hardware come together in intelligent autonomous systems.
+        </p>
+
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button button-primary" href="#research">View Research</a>
+          <a class="button button-secondary" href="#projects">View Projects</a>
+          <a class="button button-link" href="https://github.com/Demii-7" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button button-link" href="https://www.linkedin.com/in/demarce-williams-7d3e0m7ii/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="button button-link" href="#" aria-disabled="true">CV</a>
+        </div>
+      </div>
+
+      <aside class="hero-visual" aria-labelledby="portrait-placeholder-title">
+        <div class="portrait-placeholder">
+          <div class="portrait-frame" aria-hidden="true"></div>
+          <p class="placeholder-label" id="portrait-placeholder-title">Portrait</p>
+          <p class="placeholder-meta">Reserved area for a future photo</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="about-layout">
+        <div class="about-header">
+          <p class="section-kicker">01</p>
+          <h2 id="about-title">About</h2>
+        </div>
+        <div class="about-copy">
+          <p class="about-lead">
+            Senior Electrical Engineering student at NYU Abu Dhabi interested in intelligent physical systems, particularly robotics, autonomy, dynamics, and control.
+          </p>
+          <p>
+            I am especially interested in how algorithms, sensing, control, and physical hardware come together in autonomous systems. My current research experience includes machine learning, time-series forecasting, wireless systems, and experimental evaluation, while I continue exploring where I want to specialize within robotics and autonomy.
+          </p>
+          <div class="interest-row" aria-label="Current interests">
+            <span class="interest-label">Current interests</span>
+            <span class="interest-values">Robotics · Autonomous Systems · Control · Embodied Intelligence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="research" aria-labelledby="research-title">
+      <div class="section-heading section-heading-split">
+        <div>
+          <p class="section-kicker">SELECTED RESEARCH</p>
+          <h2 id="research-title">Research</h2>
+        </div>
+      </div>
+
+      <div class="research-layout">
+        <article class="research-entry" aria-labelledby="featured-research-title">
+          <div class="card-topline research-topline">
+            <p class="meta-text research-affiliation">NYU WIRELESS · NYU Tandon School of Engineering</p>
+            <span class="pill">Manuscript under review</span>
+          </div>
+          <h3 id="featured-research-title" class="research-title">What Do Spectrum Prediction Models Actually Learn?</h3>
+          <p class="research-summary">
+            Spectrum prediction models are often evaluated using forecasting accuracy alone. This work uses a common benchmark across multiple wireless research testbeds to examine whether strong predictive performance actually reflects meaningful temporal, spectral, and spatial learning, and whether these models generalize across environments.
+          </p>
+          <div class="research-question-block" aria-labelledby="research-question-title">
+            <p class="research-question-label" id="research-question-title">Research question</p>
+            <p class="research-question">To what extent do spectrum prediction models learn meaningful patterns?</p>
+          </div>
+          <ul class="tag-list research-tags" aria-label="Research topics">
+            <li>Spectrum Prediction</li>
+            <li>Time-Series Forecasting</li>
+            <li>Machine Learning</li>
+            <li>Wireless Systems</li>
+            <li>Model Generalization</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" aria-disabled="true">Code</a>
+            <a href="#" aria-disabled="true">Poster</a>
+          </div>
+        </article>
+
+        <aside class="content-card research-panel" aria-labelledby="research-panel-title">
+          <h3 id="research-panel-title">What the study tests</h3>
+          <div class="research-test-grid" aria-label="Evaluating generalization across">
+            <div class="research-test-item">Time</div>
+            <div class="research-test-item">Frequency</div>
+            <div class="research-test-item">Receiver / location</div>
+            <div class="research-test-item">Wireless testbeds</div>
+          </div>
+
+          <div class="research-method-block" aria-labelledby="research-method-title">
+            <p class="research-question-label" id="research-method-title">Method / scope</p>
+            <ul class="bullet-list research-method-list">
+              <li>Common preprocessing and evaluation pipeline</li>
+              <li>Multiple forecasting model families</li>
+              <li>Controlled comparisons across different spectrum environments</li>
+              <li>Consistent forecasting tasks and metrics</li>
+            </ul>
+          </div>
+
+          <div class="research-asset-placeholder" aria-label="Future research asset placeholder">
+            Optional poster, result figure, or experiment diagram placeholder
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading section-heading-split">
+        <div>
+          <p class="section-kicker">SELECTED ENGINEERING WORK</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <p class="section-note">Selected projects spanning robotics, embedded systems, digital design, signal processing, modeling, and intelligent systems.</p>
+      </div>
+
+      <div class="projects-empty-state" role="status" aria-live="polite">
+        <p>Selected projects are being added.</p>
+      </div>
+
+      <div class="projects-grid" aria-hidden="true" hidden>
+        <article class="content-card project-card">
+          <div class="project-media project-media-cover">
+            <div class="project-visual-placeholder" aria-label="Project visual placeholder">Project visual</div>
+          </div>
+          <div class="project-content">
+            <p class="project-category">CATEGORY</p>
+            <h3 class="project-title">Project Title</h3>
+            <p class="project-description">Two to three sentence project description.</p>
+            <ul class="tag-list project-tags" aria-label="Project technologies">
+              <li>Technology</li>
+              <li>Technology</li>
+            </ul>
+            <div class="card-links project-links" aria-label="Project links">
+              <a href="#">GitHub</a>
+              <a href="#">Report</a>
+              <a href="#">Demo</a>
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="content-card project-card project-card-featured">
+          <div class="project-media project-media-contain">
+            <div class="project-visual-placeholder" aria-label="Project visual placeholder">Project visual</div>
+          </div>
+          <div class="project-content">
+            <p class="project-category">CATEGORY</p>
+            <h3 class="project-title">Featured Project Title</h3>
+            <p class="project-description">Featured project layout placeholder for future approved project content.</p>
+            <ul class="tag-list project-tags" aria-label="Project technologies">
+              <li>Technology</li>
+              <li>Technology</li>
+            </ul>
+            <div class="card-links project-links" aria-label="Project links">
+              <a href="#">GitHub</a>
+              <a href="#">Report</a>
+              <a href="#">Demo</a>
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <p class="section-kicker">RESEARCH &amp; PROFESSIONAL EXPERIENCE</p>
+        <h2 id="experience-title">Experience</h2>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-item experience-item-featured" aria-labelledby="experience-ugsrp-title">
+          <div class="experience-meta">
+            <p class="experience-period">Summer 2026</p>
+            <p class="experience-location">New York, NY</p>
+          </div>
+          <div class="experience-content">
+            <p class="experience-label">Research</p>
+            <h3 id="experience-ugsrp-title">Undergraduate Researcher</h3>
+            <p class="experience-org">NYU WIRELESS · NYU Tandon School of Engineering</p>
+            <p class="experience-program">Undergraduate Summer Research Program (UGSRP)</p>
+            <ul class="bullet-list experience-bullets">
+              <li>Conducted research on spectrum prediction and model generalization across multiple wireless research testbeds.</li>
+              <li>Built and evaluated machine-learning forecasting pipelines using common preprocessing, training, and evaluation protocols.</li>
+              <li>Investigated whether model performance reflects meaningful temporal, spectral, spatial, and cross-domain learning.</li>
+              <li>Worked under Professor Shivendra S. Panwar with supervision from Dr. Fraida Fund.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-item" aria-labelledby="experience-engineering-tutor-title">
+          <div class="experience-meta">
+            <p class="experience-period">Date not provided</p>
+          </div>
+          <div class="experience-content">
+            <h3 id="experience-engineering-tutor-title">Engineering Peer Tutor</h3>
+            <p class="experience-org">NYU Abu Dhabi</p>
+            <ul class="bullet-list experience-bullets">
+              <li>Supported students in circuits, digital logic, and advanced versions of these courses.</li>
+              <li>Guided students through engineering problems by helping them reason through concepts and problem-solving steps rather than simply providing answers.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-item" aria-labelledby="experience-foundation-tutor-title">
+          <div class="experience-meta">
+            <p class="experience-period">Date not provided</p>
+          </div>
+          <div class="experience-content">
+            <h3 id="experience-foundation-tutor-title">Foundation of Science Peer Tutor</h3>
+            <p class="experience-org">NYU Abu Dhabi</p>
+            <ul class="bullet-list experience-bullets">
+              <li>Supported students in chemistry, biology, and physics.</li>
+              <li>Helped students build conceptual understanding and work through scientific problems systematically.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-item" aria-labelledby="experience-physics-teacher-title">
+          <div class="experience-meta">
+            <p class="experience-period">Date not provided</p>
+            <p class="experience-location">Jamaica</p>
+          </div>
+          <div class="experience-content">
+            <h3 id="experience-physics-teacher-title">Physics Teacher</h3>
+            <p class="experience-org">Kingston College</p>
+            <ul class="bullet-list experience-bullets">
+              <li>Taught high-school physics across Grades 9-11.</li>
+              <li>Developed and delivered lessons while supporting students in developing physical intuition and structured problem-solving skills.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="section-heading">
+        <p class="section-kicker">ACADEMIC BACKGROUND</p>
+        <h2 id="education-title">Education</h2>
+      </div>
+
+      <div class="education-list">
+        <article class="education-entry" aria-labelledby="education-nyuad-title">
+          <div class="education-primary">
+            <h3 id="education-nyuad-title">New York University Abu Dhabi</h3>
+            <p class="education-degree">B.S. Electrical Engineering</p>
+            <p class="education-meta">Senior · Abu Dhabi, UAE</p>
+          </div>
+
+          <div class="education-secondary">
+            <div class="interest-row education-interests" aria-label="Current interests">
+              <span class="interest-label">Current interests</span>
+              <span class="interest-values">Robotics · Autonomous Systems · Control · Embodied Intelligence</span>
+            </div>
+
+            <div class="education-areas" aria-labelledby="education-areas-title">
+              <p class="education-areas-title" id="education-areas-title">Relevant areas</p>
+              <ul class="tag-list education-tags" aria-label="Relevant academic areas">
+                <li>Control</li>
+                <li>Signal Processing</li>
+                <li>Digital Systems</li>
+                <li>Embedded Systems</li>
+                <li>Machine Learning</li>
+                <li>Electronics</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <p class="section-kicker">TECHNICAL TOOLKIT</p>
+        <h2 id="skills-title">Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-group" aria-labelledby="skills-programming-title">
+          <div class="skill-group-header">
+            <h3 id="skills-programming-title">Programming</h3>
+          </div>
+          <ul class="skill-list" aria-label="Programming skills">
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2C7.03 2 5.75 4.03 5.75 4.03l.01 4.2h6.36v1.26H3.25S2 8.87 2 12.01c0 3.14 1.1 3.02 1.1 3.02h2.38v-3.34s-.13-4 3.92-4h6.54s3.68.06 3.68-3.56V6.1S20.2 2 12 2Zm-3.5 2.04a1.16 1.16 0 1 1 0 2.32 1.16 1.16 0 0 1 0-2.32Z" fill="currentColor"/><path d="M12 22c4.97 0 6.25-2.03 6.25-2.03l-.01-4.2h-6.36v-1.26h8.87S22 15.13 22 11.99c0-3.14-1.1-3.02-1.1-3.02h-2.38v3.34s.13 4-3.92 4h-6.54s-3.68-.06-3.68 3.56v1.03S3.8 22 12 22Zm3.5-2.04a1.16 1.16 0 1 1 0-2.32 1.16 1.16 0 0 1 0 2.32Z" fill="currentColor"/></svg>
+              </span>
+              <span>Python</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">C++</span>
+              <span>C++</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">C</span>
+              <span>C</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">M</span>
+              <span>MATLAB</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">V</span>
+              <span>VHDL</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="skill-group" aria-labelledby="skills-ml-title">
+          <div class="skill-group-header">
+            <h3 id="skills-ml-title">Machine Learning &amp; Scientific Computing</h3>
+          </div>
+          <ul class="skill-list" aria-label="Machine learning and scientific computing skills">
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M12.7 3.1 6.4 6.8v4.6l2 1.2V8l4.3-2.5L17 8v4.6l2-1.2V6.8L12.7 3.1ZM5 13l-2 1.2 6.3 3.7 4-2.3-2-1.2-2 1.2L5 13Zm14 0-4.3 2.5-2 1.2 4 2.3 6.3-3.7L19 13Zm-7 4.9-2 1.2V23l2-1.2 2-1.1v-4.9l-2 1.1Z" fill="currentColor"/></svg>
+              </span>
+              <span>PyTorch</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">N</span>
+              <span>NumPy</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">P</span>
+              <span>Pandas</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">sk</span>
+              <span>scikit-learn</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M4 19.5h16v1.5H4zM6.2 17.2 9 9.5l2.6 5 2.6-8 3.6 10.7h-1.8l-1.9-5.6-2.4 7.3-2.7-5.2-1.3 3.5z" fill="currentColor"/></svg>
+              </span>
+              <span>Matplotlib</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="skill-group" aria-labelledby="skills-engineering-title">
+          <div class="skill-group-header">
+            <h3 id="skills-engineering-title">Engineering &amp; Hardware</h3>
+          </div>
+          <ul class="skill-list" aria-label="Engineering and hardware skills">
+            <li class="skill-item"><span>Signal Processing</span></li>
+            <li class="skill-item"><span>Digital Logic</span></li>
+            <li class="skill-item"><span>FPGA</span></li>
+            <li class="skill-item"><span>Embedded Systems</span></li>
+            <li class="skill-item"><span>Electronics</span></li>
+          </ul>
+        </article>
+
+        <article class="skill-group" aria-labelledby="skills-tools-title">
+          <div class="skill-group-header">
+            <h3 id="skills-tools-title">Development &amp; Research Tools</h3>
+          </div>
+          <ul class="skill-list" aria-label="Development and research tools">
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M21 10.5 13.5 3a1.5 1.5 0 0 0-2.12 0L9.8 4.58l1.9 1.9a1.8 1.8 0 0 1 2.28 2.3l1.84 1.84a1.8 1.8 0 1 1-1.08 1.03l-1.72-1.72v4.52a1.8 1.8 0 1 1-1.2 0V9.89a1.8 1.8 0 0 1-.98-2.36l-1.87-1.87L3 11.5a1.5 1.5 0 0 0 0 2.12L10.5 21a1.5 1.5 0 0 0 2.12 0l8.38-8.38A1.5 1.5 0 0 0 21 10.5Z" fill="currentColor"/></svg>
+              </span>
+              <span>Git</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M12 .5C5.65.5.5 5.66.5 12.02c0 5.08 3.3 9.39 7.87 10.9.58.1.79-.25.79-.56v-2.16c-3.2.69-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.76 1.2 1.76 1.2 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.53-2.56-.29-5.26-1.29-5.26-5.72 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.78 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.58.24 2.75.12 3.04.73.8 1.18 1.83 1.18 3.09 0 4.44-2.7 5.43-5.28 5.71.41.36.78 1.08.78 2.17v3.21c0 .31.21.67.8.56a11.53 11.53 0 0 0 7.86-10.9C23.5 5.66 18.34.5 12 .5Z" fill="currentColor"/></svg>
+              </span>
+              <span>GitHub</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">J</span>
+              <span>Jupyter</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">L</span>
+              <span>LaTeX</span>
+            </li>
+            <li class="skill-item skill-item-icon">
+              <span class="skill-icon skill-icon-text" aria-hidden="true">&lt;/&gt;</span>
+              <span>VS Code</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <p class="section-kicker">RESEARCH OUTPUTS</p>
+        <h2 id="publications-title">Publications</h2>
+      </div>
+
+      <ol class="publication-list">
+        <li class="publication-item">
+          <article class="publication-entry" aria-labelledby="publication-spectrum-title">
+            <div class="publication-index" aria-hidden="true">01</div>
+            <div class="publication-content">
+              <h3 id="publication-spectrum-title" class="publication-title">What Do Spectrum Prediction Models Actually Learn?</h3>
+              <p class="publication-meta">Manuscript under review</p>
+              <div class="publication-links" aria-label="Publication links" hidden>
+                <a href="#">Code</a>
+                <a href="#">Poster</a>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-layout">
+        <div class="contact-intro">
+          <p class="section-kicker">GET IN TOUCH</p>
+          <h2 id="contact-title">Contact</h2>
+          <p class="contact-summary">I am open to conversations about research, robotics, autonomous systems, engineering opportunities, and related work.</p>
+        </div>
+
+        <address class="contact-list" aria-label="Contact methods">
+          <div class="contact-item">
+            <p class="contact-label">Email</p>
+            <a class="contact-value" href="mailto:dsw9740@nyu.edu">dsw9740@nyu.edu</a>
+          </div>
+          <div class="contact-item">
+            <p class="contact-label">GitHub</p>
+            <a class="contact-value" href="https://github.com/Demii-7" target="_blank" rel="noopener noreferrer">github.com/Demii-7</a>
+          </div>
+          <div class="contact-item">
+            <p class="contact-label">LinkedIn</p>
+            <a class="contact-value" href="https://www.linkedin.com/in/demarce-williams-7d3e0m7ii/" target="_blank" rel="noopener noreferrer">linkedin.com/in/demarce-williams-7d3e0m7ii</a>
+          </div>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-name">Demarce Williams</p>
+        <p class="footer-meta">&copy; <span id="current-year"></span> Demarce Williams</p>
+      </div>
+      <div class="footer-links" aria-label="Footer links">
+        <a href="https://github.com/Demii-7" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/demarce-williams-7d3e0m7ii/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
