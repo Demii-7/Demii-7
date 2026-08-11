@@ -31,7 +31,7 @@ A controlled benchmark of spectrum prediction models across multiple wireless re
 
 `Spectrum Prediction` `Machine Learning` `Time Series` `Wireless Systems`
 
-[Code](https://YOUR_CODE_URL) · [Poster](https://YOUR_POSTER_URL)
+[Code](https://github.com/Demii-7/spectrum-usage) · [Poster](https://drive.google.com/file/d/1e17gCmI6Xqh6HubeZZHik3dD0ATDIRWW/view?usp=sharing)
 
 ---
 
