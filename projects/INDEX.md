@@ -70,3 +70,8 @@ This folder stores recovered source material and original submission files for l
 ## 16. Signals and Systems
 - Signals and systems coursework folder.
 - Contains: multiple lab PDFs and `SS_Lab7/`, which includes `dtft.m`, `NoisySpeech.txt`, `SS_Lab7_DSW9740.mlx`, and `SS_Lab7.pdf`.
+
+## 17. Robot Vision Midterm-Final
+- Robot vision / navigation project archive.
+- Contains: `startup.json`, `.npy` run outputs, multiple player implementations, trajectory image/data folders, and navigation/helper scripts.
+- Note: the large `exploration_data.zip` archive was intentionally not stored in GitHub.
